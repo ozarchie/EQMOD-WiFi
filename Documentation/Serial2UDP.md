@@ -15,21 +15,21 @@ The SynScanPro Application needs to be setup. This is done via the Settings scre
 
 1. [Startup](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-1.png)   
 2. [Settings](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-2.png)  
-3. [UDP Screen](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiWin-3.png)  
-4. [Connect](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiWin-4.png)  
-5. [Connecting](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiWin-5.png)  
-6. [Connected](github.com/ozarchie/EQMOD-WiFi/tree/images/master/Documentation/EQMODWiFiWin-6.png)  
-7. [Error Screen](github.com/ozarchie/EQMOD-WiFi/tree/images/master/Documentation/EQMODWiFiWin-7.png)  
+3. [UDP Screen](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiWin-3.png)  
+4. [Connect](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiWin-4.png)  
+5. [Connecting](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiWin-5.png)  
+6. [Connected](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiWin-6.png)  
+7. [Error Screen](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiWin-7.png)  
 
 Select settings from the main screen.
 
 ## Android app notes
-1. [Startup](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiAndroid-1.png)
-2. [Settings](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiAndroid-2.png)
-3. [Reveal Connection Settings](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiAndroid-3.png)
-4. [UDP Screen](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiAndroid-4.png)
-5. [Connect](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiAndroid-5.png)
-6. [Connecting](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiAndroid-6.png)
+1. [Startup](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-1.png)
+2. [Settings](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-2.png)
+3. [Reveal Connection Settings](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-3.png)
+4. [UDP Screen](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-4.png)
+5. [Connect](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-5.png)
+6. [Connecting](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-6.png)
 7. [Connected Warning](github.com/ozarchie/EQMOD-WiFi/master/Documentation/tree/images/EQMODWiFiAndroid-7.png)
 8. [Connected](github.com/ozarchie/EQMOD-WiFi/master/Documentation/tree/images/EQMODWiFiAndroid-8.png)
 
