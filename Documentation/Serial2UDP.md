@@ -24,7 +24,7 @@ The SynScanPro Application needs to be setup. This is done via the Settings scre
 Select settings from the main screen.
 
 ## Android app notes
-1. [Startup](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiWin-1.png) 
+1. [Startup](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiWin-1.PNG)  
 2. [Settings](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-2.png)
 3. [Reveal Connection Settings](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-3.png)
 4. [UDP Screen](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-4.png)
