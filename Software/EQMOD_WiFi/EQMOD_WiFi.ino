@@ -23,7 +23,7 @@
 
 #define UART_BAUD 9600
 #define EQ6_BAUD 9600
-#define packTimeout 20 // ms (if nothing more on UART, then send packet)
+#define packetTimeout 20 // ms (if nothing more on UART, then send packet)
 #define bufferSize 8192
 
 const char* APNAME = "EQMOD";
@@ -41,14 +41,14 @@ uint16_t replyLen = 0;
 
 void setup()
 {
-	Serial.begin(UART_BAUD);
+	Serial.begin(UART_BAUD); // USB Serial
 	//  Serial.swap();
 	Serial.flush();
-	swSerial1.begin(EQ6_BAUD);
+	swSerial1.begin(EQ6_BAUD); // EQ6 Serial
 	swSerial1.flush();
 
 	WiFi.mode(WIFI_STA);
-	Serial.printf("Connecting to %s ", APNAME);
+	Serial.printf("Connecting to %s ", APNAME); // USB Serial
 	WiFi.begin(APNAME, APPASSWORD);
 
 	while (WiFi.status() != WL_CONNECTED)
@@ -56,10 +56,10 @@ void setup()
 		delay(500);
 		Serial.print(".");
 	}
-	Serial.println(" connected");
+	Serial.println(" connected"); // USB Serial
 
 	Udp.begin(localUdpPort);
-	Serial.printf("Now listening at IP %s, UDP port %d\n", WiFi.localIP().toString().c_str(), localUdpPort);
+	Serial.printf("Now listening at IP %s, UDP port %d\n", WiFi.localIP().toString().c_str(), localUdpPort); // USB Serial
 }
 
 void loop()
@@ -68,7 +68,7 @@ void loop()
 	if (packetSize > 0)
 	{
 		// receive incoming UDP packets
-		Serial.printf("Received %d bytes from %s, port %d\n", packetSize, Udp.remoteIP().toString().c_str(), Udp.remotePort());
+		Serial.printf("Received %d bytes from %s, port %d\n", packetSize, Udp.remoteIP().toString().c_str(), Udp.remotePort()); // USB Serial
 		int packetLen = Udp.read(incomingPacket, 255);
 		if (packetLen > 0)
 		{
@@ -77,7 +77,7 @@ void loop()
 		// Send to EQ6
 		swSerial1.write(incomingPacket, packetLen);
 		//  and copy to console
-		Serial.printf("UDP packet contents >>> %d,  %s\n", packetLen, incomingPacket);
+		Serial.printf("UDP packet contents >>> %d,  %s\n", packetLen, incomingPacket); // USB Serial
 
 		// initialize reply pointer (also length)
 		replyLen = 0;
@@ -89,7 +89,7 @@ void loop()
 				yield();
 			}
 			else {
-				delay(packTimeout);
+				delay(packetTimeout);
 				if (!swSerial1.available()) {
 					break;
 				}
@@ -102,7 +102,7 @@ void loop()
 			Udp.beginPacket(Udp.remoteIP(), Udp.remotePort());
 			Udp.write(replyPacket, replyLen);
 			Udp.endPacket();
-			Serial.printf("Sent  %d bytes >>>  %s to %s, port %d\n", replyLen, replyPacket, Udp.remoteIP().toString().c_str(), Udp.remotePort());
+			Serial.printf("Sent  %d bytes >>>  %s to %s, port %d\n", replyLen, replyPacket, Udp.remoteIP().toString().c_str(), Udp.remotePort()); // USB Serial
 		}
 	}
 }
