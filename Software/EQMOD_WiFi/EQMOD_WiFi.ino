@@ -26,8 +26,8 @@
 #define packTimeout 20 // ms (if nothing more on UART, then send packet)
 #define bufferSize 8192
 
-const char* APNAME = "HAPInet";
-const char* APPASSWORD = "HAPIconnect";
+const char* APNAME = "EQMOD";
+const char* APPASSWORD = "shillito";
 
 //WiFiManager wifiManager;
 WiFiUDP Udp;
