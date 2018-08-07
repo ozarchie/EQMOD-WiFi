@@ -25,9 +25,9 @@ Select settings from the main screen.
 
 ## Android app notes
 1. [Startup](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiWin-1.PNG)  
-2. [Settings](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-2.png)
-3. [Reveal Connection Settings](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-3.png)
-4. [UDP Screen](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-4.png)
+2. [Settings](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiWin-1.PNG)  
+3. [Reveal Connection Settings](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiWin-1.PNG)  
+4. [UDP Screen](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiWin-1.PNG)  
 5. [Connect](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-5.png)
 6. [Connecting](github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-6.png)
 7. [Connected Warning](github.com/ozarchie/EQMOD-WiFi/master/Documentation/tree/images/EQMODWiFiAndroid-7.png)
