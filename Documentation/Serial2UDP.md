@@ -1,7 +1,11 @@
 # Setup
 
-When your EQMOD WiFi adapter starts up, it sets it up in Station mode and tries to connect to a previously saved Access Point. If this is unsuccessful (or if no previous network has been saved) it changes the EQMOD WiFi adapter into Access Point mode and starts up a DNS and WebServer at default IP address “192.168.4.1”.  
-In Access Point mode, the user device (iOS, Android, or Windows) can connect to that WiFi network, using the ssid of “EQMOD” and password of “shillito”. It will then get its IP address assigned. By pointing the browser to “192.168.4.1”, the user can access a web page that will allow the user to set the users’ own wireless network configuration (ssid, password).  
+**Not working yet**
+*When the EQMOD WiFi adapter starts up, it sets it up in Station mode and tries to connect to a previously saved Access Point. If this is unsuccessful (or if no previous network has been saved) it changes the EQMOD WiFi adapter into Access Point mode and starts up a DNS and WebServer at default IP address “192.168.4.1”.*
+
+*In Access Point mode, the user device (iOS, Android, or Windows) can connect to that WiFi network, using the ssid of “EQMOD” and password of “shillito”. [You can change this in the code]. It will then get its IP address assigned. By pointing the browser to “192.168.4.1”, the user can access a web page that will allow the user to set the users’ own wireless network configuration (ssid, password).*
+
+The WiFi adapter uses the default ssid/pass to connect to a user network. This can be changed from the default in the code.  
 Once saved, the EQMOD WiFi adapter will restart and log onto the users’ network in Station mode.  
 
 # SynScanPro
