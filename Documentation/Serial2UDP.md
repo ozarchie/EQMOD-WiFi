@@ -12,27 +12,28 @@ The SynScanPro application detects the EQMOD WiFi adapter by talking to UDP port
 
 The SynScanPro Application needs to be setup. This is done via the Settings screen.
 ## Windows app notes
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiWin-1.png "StartUp")
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiWin-2.png "Connect Settings")
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiWin-3.png "UDP Screen")
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiWin-4.png "Connect")
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiWin-5.png "Connecting")
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiWin-6.png "Connected")
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiWin-7.png "Error Screen")
+/tree/master/Documentation/images
+![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiWin-1.png "StartUp")
+![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiWin-2.png "Connect Settings")
+![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiWin-3.png "UDP Screen")
+![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiWin-4.png "Connect")
+![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiWin-5.png "Connecting")
+![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/master/Documentation/EQMODWiFiWin-6.png "Connected")
+![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/master/Documentation/EQMODWiFiWin-7.png "Error Screen")
 
 Select settings from the main screen.
 
 ## Android app notes
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiAndroid-1.png "StartUp")
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiAndroid-2.png "Settings")
+![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiAndroid-1.png "StartUp")
+![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiAndroid-2.png "Settings")
 Tapping the blank line between "Wi-Fi Setting" and "Help" under "settings " 8 times  
 Scroll up and down and it will show extra line "Connect Settings" under "Help"  
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiAndroid-3.png "Reveal Settings")
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiAndroid-4.png "UDP Screen")
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiAndroid-5.png "Connect")
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiAndroid-6.png "Connecting")
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiAndroid-7.png "Connected Warning")
-![alt text](github.com/ozarchie/EQMOD-WiFi/tree/images/EQMODWiFiAndroid-8.png "Connected")
+![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiAndroid-3.png "Reveal Settings")
+![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiAndroid-4.png "UDP Screen")
+![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiAndroid-5.png "Connect")
+![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiAndroid-6.png "Connecting")
+![alt text](github.com/ozarchie/EQMOD-WiFi/master/Documentation/tree/images/EQMODWiFiAndroid-7.png "Connected Warning")
+![alt text](github.com/ozarchie/EQMOD-WiFi/master/Documentation/tree/images/EQMODWiFiAndroid-8.png "Connected")
 
 
 
