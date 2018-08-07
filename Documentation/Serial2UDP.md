@@ -13,8 +13,8 @@ The SynScanPro application detects the EQMOD WiFi adapter by talking to UDP port
 The SynScanPro Application needs to be setup. This is done via the Settings screen.
 ## Windows app notes
 
-![StartUp](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-1.png)
-![Connect Settings](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-2.png "Connect Settings")
+[StartUp](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-1.png)
+[Connect Settings](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiAndroid-2.png "Connect Settings")
 ![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiWin-3.png "UDP Screen")
 ![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiWin-4.png "Connect")
 ![alt text](github.com/ozarchie/EQMOD-WiFi/tree/master/Documentation/images/EQMODWiFiWin-5.png "Connecting")
