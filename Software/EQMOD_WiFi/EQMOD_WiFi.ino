@@ -26,8 +26,8 @@
 #define packetTimeout 20 // ms (if nothing more on UART, then send packet)
 #define bufferSize 8192
 
-const char* APNAME = "EQMOD";
-const char* APPASSWORD = "shillito";
+const char* APNAME = "EQMODWiFi";
+const char* APPASSWORD = "Shillit0";
 
 //WiFiManager wifiManager;
 WiFiUDP Udp;
