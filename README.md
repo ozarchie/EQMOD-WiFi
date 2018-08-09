@@ -12,5 +12,5 @@ I also use Visual Studio for arduino development which may use different downloa
 
 Below are the Fritzing schematics and breadboard. Take care as I have not verified it, but it follows my prototype.  
 
-1. ![Schematic](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFi_schem.png) 
-2. ![Breadboard](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFi_bb.png) 
+![Schematic](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFi_schem.png) 
+![Breadboard](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFi_bb.png) 
