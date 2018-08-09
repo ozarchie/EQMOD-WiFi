@@ -16,9 +16,10 @@ You need to load different firmware for SynScanPro and the EQMOD interfaces - or
 
 It has only been tested on the EQ6 mount.  
 
-*TODO: 
-Find a way to support both TCP and UDP in the WeMos firmware.  
-Put in 3v3 <> TTL buffers  *  
+*TODO:*   
+
+*Find a way to support both TCP and UDP in the WeMos firmware.  
+Put in 3v3 <> TTL buffer*    
 
 ## Notices
 This interface uses sample code from the ESP8266 arduino repositories.  
