@@ -1,25 +1,22 @@
 # EQMOD-WiFi
-An ESP8266 based WiFi to serial, tested on an EQ6 mount
+An ESP8266 based WiFi to serial, WiFi to UDP, tested on an EQ6 mount
 
 ## Introduction
-This project describes a WeMos WiFi interface used between the EQMOD/SynScanPro software and the DB9 TTL serial interface connector on the Skywatcher EQ6 mount.
+This project describes a WiFi interface used between the EQMOD/SynScanPro software and the DB9 TTL serial interface connector on the Skywatcher EQ6 mount.
 
 ## EQMOD - TCP  
 
-The EQMOD interface uses [HWVirtSerial](https://www.hw-group.com/software/hw-vsp3-virtual-serial-port) as a TCP based virtual serial port. The WeMos device firmware uses TCP to receive and send the data from/to the EQMOD virtual serial port. Inside, it sends and receives at 3.3v level to the EQ6 mount. On a Windows machine, you can use the same virtual serial interface in the SynScanPro app. But, this does not work for the Android/Apple apps.  
+The EQMOD interface needs two WeMos ESP8266 devices - one at the host end and one at the mount end. ESP_NOW protocol is used to ensure the connection is fast. The WeMos device firmware uses ESP_NOW to receive and send the data from/to the EQMOD serial port. Inside, it sends and receives at 3.3v level to the EQ6 mount.
+
+On a Windows/Mac/Android/Apple device, you can use the same mount interface in the SynScanPro app. By selecting UDP mode, the mount will work in either access point (mount is an AP) or station (mount joins the local network) modes.  
+UDP mode and AP/STA modes are selected by jumpers/switches on the mount interface.  
+In station mode, the ssid and password needs to be changed in the firmware. Later revisions may include the ability to do this OTA.  
 
 ## SynScanPro - UDP  
 
-The SynScanPro interface uses UDP to send and receive data to and from the WeMos device. The WeMos device then sends and receives the data at 3v3 level to the EQ6 mount.  
+The SynScanPro interface uses UDP to send and receive data to and from the WeMos device. The WeMos device sends and receives the data at 3v3 level to the EQ6 mount.  
 
-You need to load different firmware for SynScanPro and the EQMOD interfaces - or have two devices?  
-
-It has only been tested on the EQ6 mount.  
-
-*TODO:*   
-
-*Find a way to support both TCP and UDP in the WeMos firmware.  
-Put in 3v3 <> TTL buffer*    
+It has only been tested on the EQ6 mount.    
 
 ## Notices
 This interface uses sample code from the ESP8266 arduino repositories.  
