@@ -1,4 +1,4 @@
-// ESP2SerialServer.ino
+// ESP2SerialServer.ino V0.1
 // https://esp-idf.readthedocs.io/en/latest/api-reference/wifi/esp_now.html
 
 #include <ESP8266WiFi.h>
