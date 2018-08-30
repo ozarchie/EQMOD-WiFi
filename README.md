@@ -37,5 +37,5 @@ Sample circuits are described, but and araduino based ESP8266 is the simplest ap
 
 Below are the Fritzing schematics and breadboard. Take care as I have not verified it, but it follows my prototype.  
 
-![Schematic](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFi_schem.png) 
-![Breadboard](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFi_bb.png) 
+![Schematic](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiV2_schem.png) 
+![Breadboard](https://github.com/ozarchie/EQMOD-WiFi/blob/master/Documentation/images/EQMODWiFiV2_bb.png) 
