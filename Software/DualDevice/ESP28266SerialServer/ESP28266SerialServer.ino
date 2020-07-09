@@ -263,8 +263,8 @@ void setup() {
   // For STA mode:  Host software must detect that IP
   // For STA mode:  UDP2Serial router network assigns IP address
     dbgSerial.println("Station Mode");
-    strcpy(ssid, "HAPInet");      // "YourSSID";
-    strcpy(pass, "HAPIconnect");  // "YourPass";
+    strcpy(ssid, "EQMODnet");      	// "YourSSID";
+    strcpy(pass, "EQMODpwd");  		// "YourPass";
   	WiFi.mode(WIFI_STA);
   	WiFi.begin(ssid, pass);
   	while (WiFi.status() != WL_CONNECTED) {
